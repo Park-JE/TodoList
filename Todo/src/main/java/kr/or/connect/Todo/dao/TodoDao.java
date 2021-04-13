@@ -11,9 +11,9 @@ import kr.or.connect.Todo.dto.TodoDto;
 
 public class TodoDao {
 	
-	private static String dbUrl = "jdbc:mysql:/localhost:3306/connectdb";
-	private static String dbUser = "connectuser";
-	private static String dbPasswd = "connect123!@#";
+	private static String dbUrl = "jdbc:mysql:/localhost:3306/projectdb";
+	private static String dbUser = "";
+	private static String dbPasswd = "";
 	
 	
 	public int addTodo(TodoDto todo) {
